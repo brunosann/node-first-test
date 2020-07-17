@@ -1,0 +1,38 @@
+* {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  width: 900px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.logo img {
+  max-width: 100%;
+}
+form {
+  width: 280px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+}
+input {
+  margin: 15px 0;
+  height: 40px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+button {
+  height: 40px;
+  margin-top: 15px;
+  background-color: #D8D8D8;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  border: 1px solid #000;
+}
+.cotacao {
+  text-align: center;
+}
